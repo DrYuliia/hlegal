@@ -1,12 +1,12 @@
 
 $('.hamburger').click(function () {
-    $(this).toggleClass('active');
-    $(".navMenu").toggleClass('active');
+    $(this).toggleClass('active_class');
+    $(".navMenu").toggleClass('active_class');
 
 })
 
 $('.close').click(function () {
-    $(".navMenu").toggleClass('active');
+    $(".navMenu").toggleClass('active_class');
 })
 
 
@@ -41,6 +41,24 @@ menuItems.forEach(
     }
 )
 
+
+$('#slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        }
+    }
+})
+
 var btn = document.getElementById("btn");
 btn.addEventListener("click", function () {
     this.classList.add("btn_active");
@@ -48,4 +66,3 @@ btn.addEventListener("click", function () {
     $("form")[0].reset();
 
 });
-
