@@ -798,6 +798,7 @@ img {
     padding-bottom: 3px;
   }
   .menu_list li a:hover {
+    color: var(--color-accent);
     border-bottom: 2px solid;
   }
   li.link {
