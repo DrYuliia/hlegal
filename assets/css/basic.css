@@ -138,6 +138,10 @@ img {
     bottom: 0;
     right: 0;
   }
+  .active_class {
+    position: fixed;
+    background: rgba(50, 50, 100, 0.7);
+  }
 
   .menuItem a:active {
     color: var(--color-accent);

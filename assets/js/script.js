@@ -10,6 +10,24 @@ $('.close').click(function () {
 })
 
 
+$('#popup-link').click(function () {
+    $(this).toggleClass('open');
+    $(".popup").toggleClass('open');
+
+})
+
+$('.send-btn.pop_close').click(function () {
+    $(".popup").toggleClass('open');
+})
+$('.send-btn').click(function () {
+    $(".popup").toggleClass('open');
+})
+$('.pop_close').click(function () {
+    $(".popup").toggleClass('open');
+})
+
+
+
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger = document.querySelector(".hamburger");

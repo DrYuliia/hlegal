@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/owlCarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/owlCarousel/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./assets/bootstrap-5.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/home_page_style.css">
-    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap-5.3.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../assets/css/home_page_style.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
 
 
     <title>hlegal</title>
@@ -19,8 +20,7 @@
     <main>
         <div class="bg-color">
 
-            <header class="header">
-
+            <header class="header clearing">
                 <div class="contacts">
                     <div class="language">
                         <label>
@@ -28,31 +28,29 @@
                             <span class="radio-input">УК</span>
                         </label>
                         <label>
-
                             <input class="custom-radio-input" type="radio" name="language" value="ru" id="ru">
                             <span class="radio-input">РУ</span>
                         </label>
                         <label>
-
                             <input class="custom-radio-input" type="radio" checked name="language" value="en" id="en">
                             <span class="radio-input">EN</span>
                         </label>
                     </div>
 
                     <div class="separator">
-                        <img src="./assets/images/icons/DotSeparator.png" alt="separator">
+                        <img src="../assets/images/icons/DotSeparator.png" alt="separator">
                     </div>
                     <div class="adress_header">
                         <p>Kyiv, Mechnikova str., 14/1</p>
                     </div>
                     <div class="separator">
-                        <img src="./assets/images/icons/DotSeparator.png" alt="separator">
+                        <img src="../assets/images/icons/DotSeparator.png" alt="separator">
                     </div>
                     <div class="contact-info">
                         <a class="tel_info" href="tel:+380800211927">0800 211 927</a>
                     </div>
                     <div class="separator">
-                        <img src="./assets/images/icons/DotSeparator.png" alt="separator">
+                        <img src="../assets/images/icons/DotSeparator.png" alt="separator">
                     </div>
                     <div class="social_header">
                         <a href="https://www.facebook.com/" target="_blank">
@@ -76,7 +74,7 @@
 
                 <div class="logo ">
                     <div class="logo_box">
-                        <a href="./index.html">
+                        <a href="../index.html">
                             <svg width="130" height="60" viewBox="0 0 130 60" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -122,19 +120,22 @@
                                     d="M127.315 57.5803V60.0283H125.716V57.5605L123.041 53.1185H124.739L126.585 56.1884L128.43 53.1185H130L127.315 57.5803Z"
                                     fill="white" />
                             </svg>
-
                         </a>
-
+                        <svg width="12" height="26" viewBox="0 0 12 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.72827 0H11.9505L3.55574 26H0.333496L8.72827 0Z" fill="#F0145A" />
+                        </svg>
+                        <a href="../services/index.html" class="link_team">services</a>
                     </div>
 
                     <div class="navMenu">
                         <ul class="menu">
-
                             <li><a class="menuItem hov" href="#">about us</a></li>
-                            <li><a class="menuItem" href="./services/index.html">services</a></li>
-                            <li class="menuItem "><a href="./team/index.html">team</a></li>
+                            <li><a class="menuItem  link_active" href="../services/index.html">services</a>
+                            </li>
+                            <li class="menuItem "><a href="../team/index.html">team</a></li>
                             <li><a class="menuItem" href="#">publications</a></li>
-                            <li><a class="menuItem" href="./contact/index.html">contact</a></li>
+                            <li><a class="menuItem" href="../contact/index.html">contact</a></li>
                         </ul>
                         <button class="hamburger">
                             <i class="menuIcon material-icons">
@@ -162,98 +163,20 @@
                 <div class="nav-inline">
                     <ul class="menu_list">
                         <li><a href="#">about us</a></li>
-                        <li><a href="./services/index.html">services</a></li>
-                        <li><a href="./team/index.html">team</a></li>
+                        <li><a href="../index.html" class="link_active">services</a></li>
+                        <li><a href="../team/index.html">team</a></li>
                         <li><a href="#">publications</a></li>
-                        <li><a href="./contact/index.html">contact</a></li>
+                        <li><a href="../contact/index.html">contact</a></li>
                     </ul>
 
                 </div>
 
             </header>
 
-            <section class="first-screen mr-ml ">
 
 
-                <div class="first_screen  ">
-                    <h1 class="heading-h1">you legal solutions provider</h1>
-                    <div class="scroll">
-                        <a href="#services_section" class="scroll-btn">
+            <section class="services mt mr-ml" id="services_section">
 
-                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_22728_12366)">
-                                    <circle opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2" />
-                                    <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
-                                </g>
-                                <defs>
-                                    <clippath id="clip0_22728_12366">
-                                        <rect width="42" height="42" fill="white" />
-                                    </clippath>
-                                </defs>
-                            </svg>
-
-
-                        </a>
-                    </div>
-                </div>
-
-            </section>
-            <section class="tab-menu ">
-
-                <div class="d-flex  flex-columns ">
-                    <div class="nav   " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                            aria-selected="true">Consistent</button>
-                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                            aria-selected="false">Customer oriented</button>
-
-                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-                            aria-selected="false">Innovative</button>
-                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-                            aria-selected="false">Business oriented</button>
-                    </div>
-                    <span class="line mr-ml "></span>
-                    <div class="tab-content mr-ml " id="v-pills-tabContent">
-
-                        <div class="tab-pane active  fade show  " id="v-pills-home" role="tabpanel"
-                            aria-labelledby="v-pills-home-tab" tabindex="0">
-                            <h2 class="h2-heading">We turn the idea of legal services</h2>
-                            <p class="tab-description">
-                                Consolidating many years of experience and practice, the company's lawyers accompany
-                                complex projects and achieve a
-                                number of important decisions for the industry. Many of them form the practice of
-                                applying the law of the sea in
-                                Ukraine.
-                            </p>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                            aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
-
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                            aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                            aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-                    </div>
-                </div>
-
-
-            </section>
-
-
-            <section class="services mr-ml" id="services_section">
-                <div class="services-link">
-                    <a href="./services/index.html" class="link-serv">
-                        Services
-                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
-                        </svg>
-                    </a>
-                </div>
                 <h2 class="services-heading">What can we do better than others?</h2>
                 <div class="article">
                     <article class="services-card">
@@ -283,7 +206,7 @@
                                 </defs>
                             </svg>
                         </span>
-                        <h3 class="article-h3"><a href="./services/it.html">IT and e-commerce</a> </h3>
+                        <h3 class="article-h3"><a href="../services/it.html">IT and e-commerce</a> </h3>
                         <p class="article-description">
                             An endless stream of contracts, tax issues, labor relations, corporate papers - legal
                             work
@@ -532,127 +455,49 @@
                 </div>
             </section>
         </div>
-
         <div class="bg_grey"></div>
         <div class="bg_light_grey"></div>
 
-        <section class="team mr-ml">
-            <div id="slider" class="owl-carousel owl-theme">
-                <div class="item-article">
-                    <img src="./assets/images/alexander_alexandrovsky.jpg" alt="Alexander Alexandrovsky">
-                    <div class="slider-link ">
-                        <a href="#" class="article_link">
-                            команда
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
-                            </svg>
-                        </a>
-                        <p class="slider-description">
-                            Ми звикли брати на себе відповідальні сть та завжди гарантуємо
-                            чесну,
-                            вчасну допомогу, навіть у
-                            ситуаціях, коли більшість
-                            безсилі.</p>
-                        <div class="owl-carousel item ">
-                            <h4>Олександр Олександровський</h4>
-                            <h4 class="position">Керуючий партнер</h4>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="item-article">
-                    <img src="./assets/images/julia_wolk.jpg" alt="Julia Wolk">
-                    <div class="slider-link ">
-                        <a href="#" class="article_link">
-                            команда
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
-                            </svg>
-                        </a>
-                        <p class="slider-description">
-                            Ми звикли брати на себе відповідальні сть та завжди гарантуємо
-                            чесну,
-                            вчасну допомогу, навіть у
-                            ситуаціях, коли більшість
-                            безсилі.</p>
-                        <div class="owl-carousel item ">
-                            <h4>Julia Wolk</h4>
-                            <h4 class="position">Associate, Attorney-at-law</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-article">
-                    <img src="./assets/images/oksana_kobzar.jpg" alt="Oksana Kobzar">
-                    <div class="slider-link ">
-                        <a href="#" class="article_link">
-                            команда
-                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
-                            </svg>
-                        </a>
-                        <p class="slider-description">
-                            Ми звикли брати на себе відповідальні сть та завжди гарантуємо
-                            чесну,
-                            вчасну допомогу, навіть у
-                            ситуаціях, коли більшість
-                            безсилі.</p>
-                        <div class="owl-carousel item ">
-                            <h4>Oksana Kobzar</h4>
-                            <h4 class="position">Equity partner, Attorney-at-law</h4>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-
-
-
-        </section>
 
         <section class="partners">
             <h2 class="partners-heading">They already trust us</h2>
             <div class="partners-group">
                 <div class="partners-item bg_hillel">
-                    <img src="./assets/images/logos/hillel.png" alt="hillel">
+                    <img src="../assets/images/logos/hillel.png" alt="hillel">
                 </div>
                 <div class="partners-item bg_wannabizz">
-                    <img src="./assets/images/logos/wannabiz.png" alt="wannabiz">
+                    <img src="../assets/images/logos/wannabiz.png" alt="wannabiz">
                 </div>
                 <div class="partners-item bg_tapgerine">
-                    <img src="./assets/images/logos/tapgerine.png" alt="tapgerine">
+                    <img src="../assets/images/logos/tapgerine.png" alt="tapgerine">
                 </div>
                 <div class="partners-item bg_3dlook">
-                    <img src="./assets/images/logos/3dlook.png" alt="3dlook">
+                    <img src="../assets/images/logos/3dlook.png" alt="3dlook">
                 </div>
                 <div class="partners-item bg_orangear">
-                    <img src="./assets/images/logos/orangear.png" alt="orangear">
+                    <img src="../assets/images/logos/orangear.png" alt="orangear">
                 </div>
                 <div class="partners-item bg_adtelligent">
-                    <img src="./assets/images/logos/adtelligent.png" alt="adtelligent">
+                    <img src="../assets/images/logos/adtelligent.png" alt="adtelligent">
                 </div>
                 <div class="partners-item bg_clickky">
-                    <img src="./assets/images/logos/clickky.png" alt="clickky">
+                    <img src="../assets/images/logos/clickky.png" alt="clickky">
                 </div>
                 <div class="partners-item bg_ecolease">
-                    <img src="./assets/images/logos/eco-leasing.png" alt="eco-leasing">
+                    <img src="../assets/images/logos/eco-leasing.png" alt="eco-leasing">
                 </div>
                 <div class="partners-item bg_ingratek">
-                    <img src="./assets/images/logos/ingratek.png" alt="ingratek">
+                    <img src="../assets/images/logos/ingratek.png" alt="ingratek">
                 </div>
                 <div class="partners-item bg_citypar">
-                    <img src="./assets/images/logos/city-par.png" alt="city-par">
+                    <img src="../assets/images/logos/city-par.png" alt="city-par">
                 </div>
                 <div class="partners-item bg_artprint">
-                    <img src="./assets/images/logos/artprint.png" alt="artprint">
+                    <img src="../assets/images/logos/artprint.png" alt="artprint">
                 </div>
                 <div class="partners-item bg_ultimatecard">
-                    <img src="./assets/images/logos/ultimatecard.png" alt="ultimatecard">
+                    <img src="../assets/images/logos/ultimatecard.png" alt="ultimatecard">
                 </div>
 
             </div>
@@ -669,7 +514,7 @@
             <h2 class="services-heading">We have something to tell</h2>
             <div class="publication">
                 <article class="card-publication">
-                    <img src="./assets/images/equity_associate.jpg" alt="Equity associate">
+                    <img src="../assets/images/equity_associate.jpg" alt="Equity associate">
                     <div class="publication-description">
                         <a href="#" class="publication-link">Equity associate</a>
                         <h5 class="publication-date">April 22</h5>
@@ -681,7 +526,7 @@
                 </article>
 
                 <article class="card-publication">
-                    <img src="./assets/images/GDPR.jpg" alt="GDPR">
+                    <img src="../assets/images/GDPR.jpg" alt="GDPR">
                     <div class="publication-description">
                         <a href="#" class="publication-link">Penalty for the Good Corporation: what will happen to
                             Google
@@ -696,7 +541,7 @@
                 </article>
 
                 <article class="card-publication grid_item">
-                    <img src="./assets/images/testament.jpg" alt="Millennial Testament">
+                    <img src="../assets/images/testament.jpg" alt="Millennial Testament">
                     <div class="publication-description">
                         <a href="#" class="publication-link">Millennial Testament</a>
                         <h5 class="publication-date">August 19</h5>
@@ -720,7 +565,7 @@
                 <div class="map">
                     <p class="adress">Kyiv, Mechnikova str., 14/1</p>
                     <div class="separator">
-                        <img src="./assets/images/icons/DotSeparator.png" alt="separator">
+                        <img src="../assets/images/icons/DotSeparator.png" alt="separator">
                     </div>
                     <p class="on_map"><a href="https://maps.app.goo.gl/UswrdSw3JqQihBtH7" target="_blank">On map</a>
                     </p>
@@ -741,11 +586,11 @@
                         </svg>
                     </a>
                     <div class="separator">
-                        <img src="./assets/images/icons/DotSeparator.png" alt="separator">
+                        <img src="../assets/images/icons/DotSeparator.png" alt="separator">
                     </div>
                     <p class="tel"><a href="tel:+0800211927">0800 211 927</a></p>
                     <div class="separator">
-                        <img src="./assets/images/icons/DotSeparator.png" alt="separator">
+                        <img src="../assets/images/icons/DotSeparator.png" alt="separator">
                     </div>
                     <div class="mail"><a href="mailto:contact@forstudy.space">contact@forstudy.space</a></div>
                 </div>
@@ -755,10 +600,8 @@
             </div>
         </div>
     </footer>
-    <script src="./assets/js/jquery-3.7.1.min.js"></script>
-    <script src="./assets/owlCarousel/dist/owl.carousel.min.js"></script>
-    <script src="./assets/bootstrap-5.3.2/js/bootstrap.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>
