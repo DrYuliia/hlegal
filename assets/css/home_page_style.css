@@ -1163,6 +1163,13 @@ img {
   .company {
     text-align: right;
   }
+  .list_items {
+    columns: 2;
+    column-gap: 60px;
+  }
+  .list_items li:nth-child(4) p {
+    margin-bottom: 0;
+  }
 }
 
 /*----------------------------------min-width-1024------------*/
